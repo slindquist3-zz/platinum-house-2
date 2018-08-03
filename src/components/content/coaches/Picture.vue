@@ -20,7 +20,7 @@ export default {
     width: auto;
     margin: auto;
     @media screen and (max-width: $tablet) {
-      width: 90%;
+      width: 80%;
       height: auto;
     }
   }

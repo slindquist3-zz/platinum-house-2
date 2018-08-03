@@ -1,7 +1,7 @@
 <template>
   <div class="classes">
     <section-component page="classes-page">
-      Equinox Tier X coaches&mdash;our most elite personal trainers&mdash;and leading group fitness talent will guide you through a unique metabolic conditioning session. Artfully combining mobility, strength, and cardio, it's the smartest and most effective workout you'll ever do.
+      Equinox Tier X coaches&mdash;our most elite personal trainers&mdash;and leading group fitness talent will guide you through a 45-minute unique metabolic conditioning session. Artfully combining mobility, strength, and cardio, it's the smartest and most effective workout you'll ever do bought to you by Platinum Card<sup>R</sup> American Express.
     </section-component>
     <div class="section container" id="classlist-section">
       <div class="columns classlist">
@@ -13,8 +13,9 @@
             <div class="subtitle is-uppercase">LOCATION:<br/>
       SOULCYCLE BARN<br/>
       BRIDGEHAMPTON, NEW YORK</div>
-            <button-component link="https://platformx-equinox.eventbrite.com/" type="is-primary">RSVP NOW</button-component>
-            <div id="equinox-members-only" class="subtitle has-text-centered">*Equinox members only</div>
+          <div class="btn-container">
+            <button-component link="https://platformx-equinox.eventbrite.com/" type="is-grey">RSVP HERE IF YOU ARE AN EQUINOX MEMBER</button-component>
+            <button-component link="http://bit.ly/2uHzZLo " type="is-primary" class="margin-top-20">RSVP HERE IF YOU ARE A PLATNIUM CARD MEMBER</button-component></div>
           </callout-component>
         </div>
         <div class="column is-one-third-desktop is-half-tablet is-hidden-mobile">
@@ -71,8 +72,20 @@ export default {
 @import '../../assets/sass/colors.scss';
 
 .classes {
+  sup {
+     border-radius: 50%;
+        width: 4px;
+        height: 4px;
+        padding: 1px;
+        background: #fff;
+        border: 1px solid;
+        text-align: center;
+  }
   #classlist-section {
     background: $lightGray;
+    .margin-top-20 {
+      margin-top:  20px;
+    }
     .columns {
       justify-content: space-between;
       .column.is-three-fifths-desktop {

@@ -109,5 +109,13 @@ export default {
       opacity: 0.7;
     }
   }
+  &.is-grey {
+    background: $darkGray;
+    transition: 0.3s opacity;
+    color: $white;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 }
 </style>

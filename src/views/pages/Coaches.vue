@@ -1,7 +1,7 @@
 <template>
   <div class="coaches">
     <section-component page="coaches-page">
-      Equinox Personal Training reaches its peak with Tier X, the world's most advanced health and wellness coaching. Powered by behavior training, our holistic approach transforms how you move, fuel, and recharge as a whole. And now, via Platform X, these coaches are accessible anytime, anywhere.
+      Equinox Personal Training reaches its peak with Tier X, the world's most advanced health and wellness coaching. Powered by behavior training, our holistic approach transforms how you move, fuel, and recharge as a whole. And now, via Platform X backed by American Express Platinum, these coaches are accessible anytime, anywhere.
     </section-component>
     <section-component>
       <div class="title is-uppercase has-text-centered">Meet Your Tier X Coaches</div>
@@ -17,7 +17,7 @@
       :key="coach.id">
       <span slot="bio" class="bio-text">
         {{coach.bio}}
-        <a v-bind:href=coach.social class="social">{{coach.handle}}</a>.
+        <a v-bind:href=coach.social class="social" target="_blank">{{coach.handle}}</a>.
       </span>
     </coach-component>
   </div>

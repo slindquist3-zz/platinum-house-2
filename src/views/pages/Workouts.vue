@@ -1,7 +1,12 @@
 <template>
   <div class="workouts">
+    <filter-component ref="filter" class="is-fixed-top"></filter-component>
     <div class="container">
-      <filter-component ref="filter"></filter-component>
+      
+      
+      <section-component page="workout-page" v-if="category === 'view_all'">
+      Take an Equinox Tier X coach with you, wherever you travel, thanks to American Express Platinum. This exclusive video library of ten-minutes, do anywhere workouts maximizes efficiency and results.
+      </section-component>
       <div class="columns">
         <div id="video-column" class="column is-two-thirds" v-if="!($mq.tablet && category === 'view_all')">
           <video-component v-bind:url="setUrl" v-bind:title="setTitle" v-bind:description="setDescription"></video-component>
@@ -23,6 +28,7 @@ import IconComponent from '@/components/shared/Icon.vue';
 import PlaylistComponent from '@/components/content/workouts/Playlist.vue';
 import FilterComponent from '@/components/content/workouts/Filter.vue';
 import { EventBus } from '../../event-bus.js';
+import SectionComponent from '@/components/content/Section.vue';
 
 export default {
   name: 'Workouts',
@@ -31,7 +37,8 @@ export default {
     ButtonComponent,
     IconComponent,
     PlaylistComponent,
-    FilterComponent
+    FilterComponent,
+    SectionComponent
   },
   data() {
     return {

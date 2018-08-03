@@ -38,6 +38,7 @@ export default {
 .coach {
   &.section {
     padding: 2rem 1.5rem;
+    font-size: 20px;
   }
   .columns {
     display: flex;
@@ -87,8 +88,8 @@ export default {
     img {
       border-radius: 50%;
       @media screen and (max-width: $tablet) {
-        max-width: 250px;
-        width: 100%;
+        max-width: 170px;
+        width: 80%;
         // min-width: 150px;
       }
     }
