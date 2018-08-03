@@ -16,7 +16,7 @@ export default new Vuex.Store({
           buttonLink: '/workouts',
           bottomImage: 'dont_live_life_without_it.png',
           calloutImage: '',
-          topImage:'platform_x_hamptons.png'
+          topImage:'introducing_x.png'
         },
         {
           image: 'hero_2.png',
@@ -34,7 +34,7 @@ export default new Vuex.Store({
           id: 1,
           coach: 'mike',
           category: 'cardio',
-          title: 'MIKE MONROIG: 10&#8209;MINUTE CARDIO',
+          title: 'MIKE MONROIG: 10&#8209;MINUTE CARDIO | AMEX PLATINUM',
           description: 'Back-to-back rounds of jogging and bodyweight exercises elevate your heart rate.',
           url: 'https://www.youtube.com/embed/5NcSuEGGx4s',
           isPlaying: true
@@ -43,7 +43,7 @@ export default new Vuex.Store({
           id: 2,
           coach: 'mike',
           category: 'power_agility',
-          title: 'MIKE MONROIG: 10&#8209;MINUTE AGILITY',
+          title: 'MIKE MONROIG: 10&#8209;MINUTE AGILITY | AMEX PLATINUM',
           description: 'Non-stop agility ladder work will have you working up a serious sweat.',
           url: 'https://www.youtube.com/embed/yWLGLLDpdYI',
           isPlaying: false
@@ -52,7 +52,7 @@ export default new Vuex.Store({
           id: 3,
           coach: 'mike',
           category: 'strength',
-          title: 'MIKE MONROIG: 10&#8209;MINUTE STRENGTH',
+          title: 'MIKE MONROIG: 10&#8209;MINUTE STRENGTH | AMEX PLATINUM',
           description: "You'll punctuate this challenging strength session with a handstand hold.",
           url: 'https://www.youtube.com/embed/ZkmtWW959Ic',
           isPlaying: false
@@ -61,7 +61,7 @@ export default new Vuex.Store({
           id: 4,
           coach: 'mike',
           category: 'mobility',
-          title: 'MIKE MONROIG: 10&#8209;MINUTE MOBILITY',
+          title: 'MIKE MONROIG: 10&#8209;MINUTE MOBILITY | AMEX PLATINUM',
           description: 'Relax into this mobility series: It highlights areas that need extra attention.',
           url: 'https://www.youtube.com/embed/UoWiVe_1ppA',
           isPlaying: false
@@ -70,7 +70,7 @@ export default new Vuex.Store({
           id: 5,
           coach: 'mike',
           category: 'conditioning',
-          title: 'MIKE MONROIG: 10&#8209;MINUTE CONDITIONING',
+          title: 'MIKE MONROIG: 10&#8209;MINUTE CONDITIONING | AMEX PLATINUM',
           description: 'A six-minute metabolic circuit is followed by four minutes of flowing bodyweight work.',
           url: 'https://www.youtube.com/embed/XB-_7aK_D24',
           isPlaying: false
