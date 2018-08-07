@@ -1,21 +1,11 @@
-# amex-prototype
+# README #
 
-> A Vue.js project
+This README would normally document whatever steps are necessary to get your application up and running.
 
-## Build Setup
+### What is this repository for? ###
 
-``` bash
-# install dependencies
-npm install
+* This repo will contain code for all current and future microsites and landing pages that we will create for Furthermore.
 
-# serve with hot reload at localhost:8080
-npm run dev
+### How to add a microsite or landing page here? ###
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* We will need to create a unique branch from master for the microsite or landing page code. In this way we can work on different microsites at a time.
