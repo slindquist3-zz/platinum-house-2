@@ -1,6 +1,61 @@
-$badass: #bada55;
 body {
-  margin: 0;
-  background-color: red;
-  color: blue;
+  background-image: url(../assets/img/Background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: absolute;
+
+  .nav {
+
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+    .nav-link {
+      color: white;
+      padding-left:20px;
+      padding-right:20px;
+      cursor: pointer;
+
+      #home-button{
+        width: 40px;
+      }
+
+    }
+
+  }
+
+  .section-container {
+
+    #section-home {
+
+      #home-london-house-logo {
+        width: 50%;
+        float:right;
+      }
+
+    }
+
+    #section-classes {
+
+      .classes-container {
+
+
+        .classes-header {
+        }
+
+        .classes-subcopy {
+        }
+
+      }
+
+    }
+
+    #section-london-diaries {
+
+    }
+
+
+  }
+
+
 }
