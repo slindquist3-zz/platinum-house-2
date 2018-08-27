@@ -17,3 +17,7 @@ body {
   body .section-container #section-home #home-london-house-logo {
     width: 50%;
     float: right; }
+  body .section-container #section-classes .classes-container {
+    width: 80%;
+    margin: auto;
+    background-color: white; }
