@@ -2,7 +2,7 @@ body {
   background-image: url(../assets/img/Background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: absolute;
+  background-position: center;
 
   font-family:"Brown","Helvetica","Arial",sans-serif;
 
@@ -77,30 +77,46 @@ body {
           margin: auto;
           height: 400px;
 
-          .schedule-copy {
 
+          .location-copy {
+            margin-top: 20px;
             font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: bold;
 
           }
 
-          .location-copy {
-
+          .schedule-copy {
+            margin-top: 20px;
             font-size: 18px;
+            padding-bottom: 20px;
+            font-weight: bold;
+
 
           }
 
           .classes-schedule-container {
-
-            display: block;
-            grid-column-gap: 50px;
-            grid-row-gap: 50px;
-
-            margin-bottom: 20px;
-
+            display:inline;
+            margin-top: 20px;
 
             .class-schedule-day-column {
-              width: 30%;
-              display: inline;
+              display: inline-block;
+              width: 230px;
+              height: 300px;
+              margin-right: 10px;
+              vertical-align: top;
+
+              &#column-1 {
+
+              }
+
+              &#column-2 {
+
+              }
+
+              &#column-3 {
+
+              }
 
             }
 
@@ -149,6 +165,40 @@ body {
         }
 
         .london-diaries-thumbnails {
+
+          .thumbnail {
+            padding-top: 20px;
+            width: 90%;
+            display: block;
+
+
+            .thumbnail-image {
+
+              width: 200px;
+              height: 150px;
+              background-color: gray;
+              display: inline-block;
+
+
+            }
+
+            .thumbnail-copy-container {
+              display: inline;
+
+              .thumbnail-copy-main {
+
+              }
+
+              .thumbnail-copy-learnmore {
+
+              }
+
+
+            }
+
+
+          }
+
 
         }
 

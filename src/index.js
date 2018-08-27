@@ -9,7 +9,7 @@
   //navigation logic
   $('#nav-link-home').on('click', function() {
     $('#section-classes').hide();
-    $('#section-london-daries').hide();
+    $('#section-london-diaries').hide();
     $('#section-home').show();
   });
   $('#nav-link-classes').on('click', function() {
