@@ -1,15 +1,58 @@
+/* Brown font */
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-thin-italic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-light-italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-regular-italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../assets/fonts/lineto-brown-bold-italic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+
 body {
   background-image: url(../assets/img/Background.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   font-family: "Brown","Helvetica","Arial",sans-serif; }
-  body .header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 8;
-    background-color: #0191bd; }
   body #fm-logo {
     position: absolute;
     top: 15px; }
