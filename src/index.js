@@ -1,10 +1,10 @@
 (function(){
 //always load home section first
-  // $(document).ready(function() {
-  //   $('#section-classes').hide();
-  //   $('#section-london-daries').hide();
-  //   $('#section-home').show();
-  // })
+  $(document).ready(function() {
+    $('#section-classes').hide();
+    $('#section-london-diaries').hide();
+    $('#section-home').show();
+  })
 
   //navigation logic
   $('#nav-link-home').on('click', function() {
@@ -24,8 +24,12 @@
 
   });
 
+  $('.nav-link').on('click', function() {
 
+    $('.nav-link-text').removeClass('link-active');
 
+    $(this).find($('.nav-link-text')).addClass('link-active');
 
+  });
 
 })();
