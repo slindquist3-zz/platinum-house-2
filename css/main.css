@@ -171,7 +171,8 @@ body {
           @media only screen and (max-width: 1024px) {
             body .section-container #section-classes .classes-container .classes-header {
               margin-right: 20%;
-              margin-left: 20%; } }
+              margin-left: 20%;
+              text-align: center; } }
           @media only screen and (max-width: 600px) {
             body .section-container #section-classes .classes-container .classes-header {
               margin: auto;
@@ -290,30 +291,37 @@ body {
                 font-weight: 400; }
               body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column .class-schedule-day-time {
                 margin-top: 15px; }
-      body .section-container #section-classes #schedule-booknow-button {
-        width: 300px;
-        height: 50px;
-        color: white;
-        background-color: #383838;
-        font-size: 18px;
-        text-transform: uppercase;
-        cursor: pointer;
-        display: block;
-        margin: auto;
-        margin-top: -25px; }
-        @media only screen and (max-width: 1024px) {
-          body .section-container #section-classes #schedule-booknow-button {
-            position: relative;
-            width: 180px;
-            height: 35px;
-            background-color: #383838;
-            display: block;
-            margin-left: 90px;
-            margin-top: -60px; } }
-        @media only screen and (max-width: 600px) {
-          body .section-container #section-classes #schedule-booknow-button {
-            margin-top: -20px;
-            margin-left: auto; } }
+      body .section-container #section-classes .schedule-booknow-link {
+        text-decoration: none; }
+        body .section-container #section-classes .schedule-booknow-link:active {
+          text-decoration: none; }
+        body .section-container #section-classes .schedule-booknow-link:hover {
+          text-decoration: none; }
+        body .section-container #section-classes .schedule-booknow-link #schedule-booknow-button {
+          width: 300px;
+          height: 50px;
+          color: white;
+          background-color: #383838;
+          font-size: 18px;
+          text-transform: uppercase;
+          cursor: pointer;
+          display: block;
+          margin: auto;
+          margin-top: -25px;
+          text-decoration: none; }
+          @media only screen and (max-width: 1024px) {
+            body .section-container #section-classes .schedule-booknow-link #schedule-booknow-button {
+              position: relative;
+              width: 180px;
+              height: 35px;
+              background-color: #383838;
+              display: block;
+              margin-left: 90px;
+              margin-top: -60px; } }
+          @media only screen and (max-width: 600px) {
+            body .section-container #section-classes .schedule-booknow-link #schedule-booknow-button {
+              margin-top: -20px;
+              margin-left: auto; } }
     body .section-container #section-london-diaries {
       clear: both; }
       body .section-container #section-london-diaries .london-diaries-container {
