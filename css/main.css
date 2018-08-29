@@ -97,135 +97,137 @@ body {
       margin-right: 10%; }
     body .section-container section.hide {
       display: none; }
-    body .section-container #section-classes .classes-container {
-      width: 80%;
-      margin: auto;
-      background-color: white;
-      text-align: center;
-      position: relative;
-      padding-bottom: 80px;
-      margin-top: 120px; }
-      body .section-container #section-classes .classes-container .classes-header {
-        font-size: 28px;
-        text-transform: uppercase;
-        padding-top: 40px;
-        letter-spacing: 2px;
-        font-weight: 400; }
-        @media only screen and (max-width: 1023px) {
-          body .section-container #section-classes .classes-container .classes-header {
-            margin-right: 20%;
-            margin-left: 20%; } }
-      body .section-container #section-classes .classes-container .classes-subcopy {
-        margin-right: 12%;
-        margin-left: 12%;
-        font-size: 18px;
-        font-weight: 300;
-        margin-bottom: 40px; }
-        @media only screen and (max-width: 1023px) {
-          body .section-container #section-classes .classes-container .classes-subcopy {
-            margin-left: 5%;
-            margin-right: 5%; } }
-      body .section-container #section-classes .classes-container .classes-inner-contianer {
-        border: 2px solid black;
+    body .section-container #section-classes {
+      margin-top: -60px; }
+      body .section-container #section-classes .classes-container {
         width: 80%;
-        margin: auto; }
-        @media only screen and (max-width: 1023px) {
-          body .section-container #section-classes .classes-container .classes-inner-contianer {
-            text-align: left; }
-            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-upper-copy-container {
-              margin-left: 20px; } }
-        body .section-container #section-classes .classes-container .classes-inner-contianer .location-copy {
-          font-weight: 400;
-          margin-top: 20px;
-          font-size: 20px;
-          margin-bottom: 10px;
-          text-transform: uppercase; }
-        body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
+        margin: auto;
+        background-color: white;
+        text-align: center;
+        position: relative;
+        padding-bottom: 80px;
+        margin-top: 120px; }
+        body .section-container #section-classes .classes-container .classes-header {
+          font-size: 28px;
+          text-transform: uppercase;
+          padding-top: 40px;
+          letter-spacing: 2px;
+          font-weight: 400; }
+          @media only screen and (max-width: 1023px) {
+            body .section-container #section-classes .classes-container .classes-header {
+              margin-right: 20%;
+              margin-left: 20%; } }
+        body .section-container #section-classes .classes-container .classes-subcopy {
+          margin-right: 12%;
+          margin-left: 12%;
+          font-size: 18px;
           font-weight: 300;
-          font-size: 22px; }
-          @media only screen and (max-width: 1024px) {
-            body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
-              font-size: 18px;
-              margin-bottom: 40px; } }
-        body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
-          font-weight: 400;
-          margin-top: 40px;
-          font-size: 20px;
-          padding-bottom: 20px;
-          text-transform: uppercase; }
-          @media only screen and (max-width: 1024px) {
-            body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
-              width: 100%;
-              display: block;
-              margin-top: 10px;
-              padding-bottom: 10px; } }
-        body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
-          display: flex;
-          margin-top: 20px;
-          font-weight: 400;
-          justify-content: space-between;
-          padding-left: 100px;
-          padding-right: 100px; }
-          @media only screen and (max-width: 1500px) {
-            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
-              margin-top: 0;
-              padding-left: 20px;
-              padding-right: 20px; } }
-          @media only screen and (max-width: 1024px) {
-            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
-              flex-wrap: wrap;
-              padding-left: 20px;
-              padding-right: 20px;
-              padding-bottom: 30px; } }
-          body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
-            font-size: 18px;
-            display: inline-block;
-            width: 250px;
-            vertical-align: top;
-            text-align: left;
-            padding-bottom: 90px;
-            font-weight: 300; }
-            @media only screen and (max-width: 1400px) {
-              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
+          margin-bottom: 40px; }
+          @media only screen and (max-width: 1023px) {
+            body .section-container #section-classes .classes-container .classes-subcopy {
+              margin-left: 5%;
+              margin-right: 5%; } }
+        body .section-container #section-classes .classes-container .classes-inner-contianer {
+          border: 2px solid black;
+          width: 80%;
+          margin: auto; }
+          @media only screen and (max-width: 1023px) {
+            body .section-container #section-classes .classes-container .classes-inner-contianer {
+              text-align: left; }
+              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-upper-copy-container {
+                margin-left: 20px; } }
+          body .section-container #section-classes .classes-container .classes-inner-contianer .location-copy {
+            font-weight: 400;
+            margin-top: 20px;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase; }
+          body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
+            font-weight: 300;
+            font-size: 22px; }
+            @media only screen and (max-width: 1024px) {
+              body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
+                font-size: 18px;
+                margin-bottom: 40px; } }
+          body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
+            font-weight: 400;
+            margin-top: 40px;
+            font-size: 20px;
+            padding-bottom: 20px;
+            text-transform: uppercase; }
+            @media only screen and (max-width: 1024px) {
+              body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
                 width: 100%;
                 display: block;
-                font-size: 16px; } }
-            @media only screen and (max-width: 1023px) {
-              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
-                width: 100%;
-                padding-bottom: 40px;
-                font-size: 18px; } }
-            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column .class-schedule-day-name {
-              font-weight: 400; }
-            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column .class-schedule-day-time {
-              margin-top: 15px; }
-    body .section-container #section-classes #schedule-booknow-button {
-      width: 300px;
-      height: 50px;
-      color: white;
-      background-color: #383838;
-      font-size: 18px;
-      text-transform: uppercase;
-      cursor: pointer;
-      display: block;
-      margin: auto;
-      margin-top: -25px; }
-      @media only screen and (max-width: 1023px) {
-        body .section-container #section-classes #schedule-booknow-button {
-          position: relative;
-          width: 180px;
-          height: 35px;
-          background-color: #383838;
-          display: block;
-          margin-left: 20%;
-          margin-top: -50px; } }
+                margin-top: 10px;
+                padding-bottom: 10px; } }
+          body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
+            display: flex;
+            margin-top: 20px;
+            font-weight: 400;
+            justify-content: space-between;
+            padding-left: 100px;
+            padding-right: 100px; }
+            @media only screen and (max-width: 1500px) {
+              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
+                margin-top: 0;
+                padding-left: 20px;
+                padding-right: 20px; } }
+            @media only screen and (max-width: 1024px) {
+              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
+                flex-wrap: wrap;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 30px; } }
+            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
+              font-size: 18px;
+              display: inline-block;
+              width: 250px;
+              vertical-align: top;
+              text-align: left;
+              padding-bottom: 90px;
+              font-weight: 300; }
+              @media only screen and (max-width: 1400px) {
+                body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
+                  width: 100%;
+                  display: block;
+                  font-size: 16px; } }
+              @media only screen and (max-width: 1023px) {
+                body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
+                  width: 100%;
+                  padding-bottom: 40px;
+                  font-size: 18px; } }
+              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column .class-schedule-day-name {
+                font-weight: 400; }
+              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column .class-schedule-day-time {
+                margin-top: 15px; }
+      body .section-container #section-classes #schedule-booknow-button {
+        width: 300px;
+        height: 50px;
+        color: white;
+        background-color: #383838;
+        font-size: 18px;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: block;
+        margin: auto;
+        margin-top: -25px; }
+        @media only screen and (max-width: 1023px) {
+          body .section-container #section-classes #schedule-booknow-button {
+            position: relative;
+            width: 180px;
+            height: 35px;
+            background-color: #383838;
+            display: block;
+            margin-left: 20%;
+            margin-top: -50px; } }
     body .section-container #section-london-diaries {
       clear: both; }
       body .section-container #section-london-diaries .london-diaries-container {
         width: 45%;
         background-color: white;
         float: right;
-        margin-right: 30px;
+        margin-right: 100px;
         margin-bottom: 20px;
         padding: 30px 30px 25px;
         margin-top: -20px; }
@@ -251,10 +253,12 @@ body {
           body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-image {
             width: 28%;
             height: 140px;
-            background-color: #D3D3D3;
             display: table-cell;
             vertical-align: top; }
+            body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-image img {
+              width: 270px; }
           body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container {
+            padding-top: 20px;
             display: table-cell;
             width: 67%;
             padding-left: 2%;
@@ -262,4 +266,4 @@ body {
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container span {
               font-weight: bold; }
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore {
-              margin-bottom: 20%; }
+              margin-top: 10%; }
