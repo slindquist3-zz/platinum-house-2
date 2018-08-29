@@ -73,6 +73,10 @@ body {
     @media only screen and (max-width: 1024px) {
       body #fm-logo {
         width: 30px; } }
+    @media only screen and (max-width: 600px) {
+      body #fm-logo {
+        width: 30px;
+        left: 3%; } }
   body #amex-logo {
     position: absolute;
     right: 2%;
@@ -127,8 +131,19 @@ body {
           margin-left: 25%; } }
       @media only screen and (max-width: 600px) {
         body .section-container #section-home .home-container #home-london-house-logo {
+          display: none;
           position: absolute;
           top: 10%; } }
+    body .section-container #section-home .home-container #home-london-house-logo-mobile {
+      display: none; }
+      @media only screen and (max-width: 600px) {
+        body .section-container #section-home .home-container #home-london-house-logo-mobile {
+          display: block;
+          width: 70%;
+          margin-left: 15%;
+          float: none;
+          position: absolute;
+          top: 15%; } }
     body .section-container section.hide {
       display: none; }
       @media only screen and (max-width: 600px) {

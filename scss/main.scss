@@ -87,6 +87,11 @@ body {
       width: 30px;
     }
 
+    @media only screen and (max-width: $mobile) {
+      width: 30px;
+      left: 3%;
+    }
+
   }
 
   #amex-logo {
@@ -183,6 +188,7 @@ body {
 
           @media only screen and (max-width: $mobile) {
 
+            display: none;
             position: absolute;
             top: 10%;
 
@@ -192,19 +198,21 @@ body {
         }
 
 
-        // #home-london-house-logo-mobile {
-        //
-        //   display: none;
-        //
-        //   @media only screen and (max-width: $mobile) {
-        //     float: none;
-        //     display: block;
-        //     position: absolute;
-        //     top: 10%;
-        //
-        //   }
-        //
-        // }
+        #home-london-house-logo-mobile {
+
+          display: none;
+
+          @media only screen and (max-width: $mobile) {
+            display: block;
+            width: 70%;
+            margin-left: 15%;
+            float: none;
+            position: absolute;
+            top: 15%;
+
+          }
+
+        }
 
       }
 
