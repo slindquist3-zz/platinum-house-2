@@ -61,10 +61,16 @@ body {
     position: absolute;
     left: 1%;
     top: 20px; }
+    @media only screen and (max-width: 1023px) {
+      body #fm-logo {
+        width: 30px; } }
   body #amex-logo {
     position: absolute;
     right: 2%;
     top: 20px; }
+    @media only screen and (max-width: 1023px) {
+      body #amex-logo {
+        width: 130px; } }
   body .nav {
     margin: auto;
     text-align: center;
@@ -105,16 +111,29 @@ body {
         padding-top: 40px;
         letter-spacing: 2px;
         font-weight: 400; }
+        @media only screen and (max-width: 1023px) {
+          body .section-container #section-classes .classes-container .classes-header {
+            margin-right: 20%;
+            margin-left: 20%; } }
       body .section-container #section-classes .classes-container .classes-subcopy {
         margin-right: 12%;
         margin-left: 12%;
         font-size: 18px;
         font-weight: 300;
         margin-bottom: 40px; }
+        @media only screen and (max-width: 1023px) {
+          body .section-container #section-classes .classes-container .classes-subcopy {
+            margin-left: 5%;
+            margin-right: 5%; } }
       body .section-container #section-classes .classes-container .classes-inner-contianer {
         border: 2px solid black;
         width: 80%;
         margin: auto; }
+        @media only screen and (max-width: 1023px) {
+          body .section-container #section-classes .classes-container .classes-inner-contianer {
+            text-align: left; }
+            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-upper-copy-container {
+              margin-left: 20px; } }
         body .section-container #section-classes .classes-container .classes-inner-contianer .location-copy {
           font-weight: 400;
           margin-top: 20px;
@@ -124,12 +143,22 @@ body {
         body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
           font-weight: 300;
           font-size: 22px; }
+          @media only screen and (max-width: 1024px) {
+            body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
+              font-size: 18px;
+              margin-bottom: 40px; } }
         body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
           font-weight: 400;
           margin-top: 40px;
           font-size: 20px;
           padding-bottom: 20px;
           text-transform: uppercase; }
+          @media only screen and (max-width: 1024px) {
+            body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
+              width: 100%;
+              display: block;
+              margin-top: 10px;
+              padding-bottom: 10px; } }
         body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
           display: flex;
           margin-top: 20px;
@@ -137,6 +166,17 @@ body {
           justify-content: space-between;
           padding-left: 100px;
           padding-right: 100px; }
+          @media only screen and (max-width: 1500px) {
+            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
+              margin-top: 0;
+              padding-left: 20px;
+              padding-right: 20px; } }
+          @media only screen and (max-width: 1024px) {
+            body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
+              flex-wrap: wrap;
+              padding-left: 20px;
+              padding-right: 20px;
+              padding-bottom: 30px; } }
           body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
             font-size: 18px;
             display: inline-block;
@@ -145,21 +185,40 @@ body {
             text-align: left;
             padding-bottom: 90px;
             font-weight: 300; }
+            @media only screen and (max-width: 1400px) {
+              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
+                width: 100%;
+                display: block;
+                font-size: 16px; } }
+            @media only screen and (max-width: 1023px) {
+              body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
+                width: 100%;
+                padding-bottom: 40px;
+                font-size: 18px; } }
             body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column .class-schedule-day-name {
               font-weight: 400; }
             body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column .class-schedule-day-time {
               margin-top: 15px; }
-      body .section-container #section-classes .classes-container #schedule-booknow-button {
-        width: 300px;
-        height: 50px;
-        color: white;
-        background-color: gray;
-        font-size: 18px;
-        text-transform: uppercase;
-        position: absolute;
-        margin-top: -25px;
-        margin-left: -150px;
-        cursor: pointer; }
+    body .section-container #section-classes #schedule-booknow-button {
+      width: 300px;
+      height: 50px;
+      color: white;
+      background-color: #383838;
+      font-size: 18px;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+      margin-top: -25px; }
+      @media only screen and (max-width: 1023px) {
+        body .section-container #section-classes #schedule-booknow-button {
+          position: relative;
+          width: 180px;
+          height: 35px;
+          background-color: #383838;
+          display: block;
+          margin-left: 20%;
+          margin-top: -50px; } }
     body .section-container #section-london-diaries {
       clear: both; }
       body .section-container #section-london-diaries .london-diaries-container {
@@ -170,6 +229,12 @@ body {
         margin-bottom: 20px;
         padding: 30px 30px 25px;
         margin-top: -20px; }
+        @media only screen and (max-width: 1023px) {
+          body .section-container #section-london-diaries .london-diaries-container {
+            width: 70%;
+            float: none;
+            margin-left: auto;
+            margin-right: auto; } }
         body .section-container #section-london-diaries .london-diaries-container .london-diaries-headline {
           text-transform: uppercase;
           font-size: 24px;
@@ -197,5 +262,4 @@ body {
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container span {
               font-weight: bold; }
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore {
-              position: absolute;
-              bottom: 20px; }
+              margin-bottom: 20%; }
