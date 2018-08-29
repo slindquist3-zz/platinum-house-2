@@ -48,6 +48,10 @@
   font-style: italic; }
 
 
+$tablet: 1024px;
+$mobile: 600px;
+
+
 body {
   background-image: url(../assets/img/Background-desktop.png);
   background-repeat: no-repeat;
@@ -56,14 +60,14 @@ body {
   background-attachment: fixed;
 
 
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: $tablet) {
     background-image: url(../assets/img/Background-tablet.png);
   }
 
-  @media only screen and (max-width: 599px) {
+  @media only screen and (max-width: $mobile) {
     background-image: none;
     background-color: white;
-
+    margin: 0;
   }
 
 
@@ -79,7 +83,7 @@ body {
     left: 1%;
     top: 20px;
 
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $tablet) {
       width: 30px;
     }
 
@@ -90,11 +94,11 @@ body {
     right: 2%;
     top: 20px;
 
-    @media only screen and (max-width: 1023px) {
+    @media only screen and (max-width: $tablet) {
       width: 130px;
     }
 
-    @media only screen and (max-width: 599px) {
+    @media only screen and (max-width: $mobile) {
       display: none;
     }
 
@@ -132,7 +136,7 @@ body {
 
     }
 
-    @media only screen and (max-width: 599px) {
+    @media only screen and (max-width: $mobile) {
       display: none;
     }
 
@@ -146,12 +150,15 @@ body {
       .home-container {
 
         .home-mobile-image-container {
+          margin-top: -80px;
 
           #home-mobile-image {
             display: none;
 
-            @media only screen and (max-width: 600px) {
-
+            @media only screen and (max-width: $mobile) {
+              max-width: 100%;
+              flex-shrink: 1;
+              height: auto;
               display: block;
 
             }
@@ -160,19 +167,24 @@ body {
 
         }
 
-
-
         #home-london-house-logo {
           margin-top: 5%;
           width: 35%;
           float:right;
           margin-right: 10%;
 
-          @media only screen and (max-width: 1023px) {
+          @media only screen and (max-width: $tablet) {
 
             float: none;
             width: 50%;
             margin-left: 25%;
+
+          }
+
+          @media only screen and (max-width: $mobile) {
+
+            position: absolute;
+            top: 10%;
 
           }
 
@@ -187,7 +199,20 @@ body {
     section {
       &.hide {
         display: none;
+
+        @media only screen and (max-width: $mobile) {
+
+          display: block;
+
+        }
       }
+
+      @media only screen and (max-width: $mobile) {
+
+        display: block;
+
+      }
+
     }
 
     #section-classes {
@@ -210,10 +235,19 @@ body {
           letter-spacing: 2px;
           font-weight: 400;
 
-          @media only screen and (max-width: 1023px) {
+          @media only screen and (max-width: $tablet) {
 
             margin-right: 20%;
             margin-left: 20%;
+
+          }
+
+          @media only screen and (max-width: $mobile) {
+
+            margin: auto;
+            text-align: left;
+            font-size: 22px;
+            padding-top: 0;
 
           }
 
@@ -227,10 +261,18 @@ body {
           font-weight: 300;
           margin-bottom: 40px;
 
-          @media only screen and (max-width: 1023px) {
+          @media only screen and (max-width: $tablet) {
 
             margin-left: 5%;
             margin-right: 5%;
+          }
+
+          @media only screen and (max-width: $mobile) {
+
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
           }
 
         }
@@ -241,12 +283,26 @@ body {
           width: 80%;
           margin: auto;
 
-          @media only screen and (max-width: 1023px) {
+          @media only screen and (max-width: $tablet) {
 
             text-align: left;
 
             .classes-upper-copy-container {
               margin-left: 20px;
+            }
+
+          }
+
+          @media only screen and (max-width: $mobile) {
+
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 10px;
+            margin-left: 0;
+            margin-right: 0;
+
+            .classes-upper-copy-container {
+              margin-left: 0;
             }
 
           }
@@ -257,6 +313,13 @@ body {
             font-size: 20px;
             margin-bottom: 10px;
             text-transform: uppercase;
+
+            @media only screen and (max-width: $mobile) {
+              margin-bottom: 0;
+              font-size: 18px;
+            }
+
+
           }
 
           .location-name {
@@ -264,11 +327,9 @@ body {
             font-size: 22px;
 
 
-            @media only screen and (max-width: 1024px) {
+            @media only screen and (max-width: $tablet) {
               font-size: 18px;
-
               margin-bottom: 40px;
-
 
             }
           }
@@ -280,12 +341,16 @@ body {
             padding-bottom: 20px;
             text-transform: uppercase;
 
-            @media only screen and (max-width: 1024px) {
+            @media only screen and (max-width: $tablet) {
               width: 100%;
               display: block;
               margin-top: 10px;
               padding-bottom: 10px;;
 
+            }
+
+            @media only screen and (max-width: $mobile) {
+              font-size: 18px;
             }
 
           }
@@ -306,11 +371,20 @@ body {
 
             }
 
-            @media only screen and (max-width: 1024px) {
+            @media only screen and (max-width: $tablet) {
               flex-wrap: wrap;
 
               padding-left: 20px;
               padding-right: 20px;
+              padding-bottom: 40px;
+
+            }
+
+            @media only screen and (max-width: $mobile) {
+              flex-wrap: wrap;
+
+              padding-left: 0;
+              padding-right: 0;
               padding-bottom: 40px;
 
             }
@@ -332,7 +406,7 @@ body {
 
               }
 
-              @media only screen and (max-width: 1023px) {
+              @media only screen and (max-width: $tablet) {
                 width: 100%;
                 padding-bottom: 40px;
 
@@ -371,15 +445,21 @@ body {
         margin: auto;
         margin-top: -25px;
 
-        @media only screen and (max-width: 1023px) {
+        @media only screen and (max-width: $tablet) {
           position: relative;
-
           width: 180px;
           height: 35px;
           background-color: #383838;
           display: block;
           margin-left: 90px;
           margin-top: -60px;
+
+        }
+
+        @media only screen and (max-width: $mobile) {
+
+          margin-top: -20px;
+          margin-left: auto;
 
         }
 
@@ -399,12 +479,22 @@ body {
         padding: 30px 30px 25px;
         margin-top: -20px;
 
-        @media only screen and (max-width: 1023px) {
+        @media only screen and (max-width: $tablet) {
 
           width: 70%;
           float: none;
           margin-left: auto;
           margin-right: auto;
+
+        }
+
+        @media only screen and (max-width: $mobile) {
+
+          padding-left: 0;
+          padding-right: 0;
+          margin-left: 10%;
+          margin-right: 0;
+          width: 80%;
 
         }
 
@@ -423,15 +513,29 @@ body {
           font-weight: 300;
           margin-bottom: 10px;
 
+          @media only screen and (max-width: $mobile) {
+            font-size: 18px;
+            width: 100%;
+          }
+
         }
 
         .london-diaries-thumbnails {
+
+          @media only screen and (max-width: $mobile) {
+            width: 100%;
+          }
 
           .thumbnail {
             padding-top: 20px;
             width: 100%;
             display: table;
             clear: both;
+
+            @media only screen and (max-width: $mobile) {
+              display: block;
+              width: 100%;
+            }
 
             .thumbnail-image {
 
@@ -440,8 +544,18 @@ body {
               display: table-cell;
               vertical-align: top;
 
+              @media only screen and (max-width: $mobile) {
+                display: block;
+                width: 100%;
+                height:auto;
+              }
+
               img {
                 width: 270px;
+
+                @media only screen and (max-width: $mobile) {
+                  width: 100%;
+                  height: auto;                }
               }
             }
 
@@ -451,9 +565,18 @@ body {
               width: 67%;
               padding-left: 2%;
               position: relative;
+
+              @media only screen and (max-width: $mobile) {
+                display: block;
+                width: 100%;
+                padding-left: 0;
+              }
+
               span {
                font-weight: bold;
               }
+
+
               .thumbnail-copy-main {
 
               }
@@ -462,7 +585,16 @@ body {
 
                 margin-top: 10%;
 
+                @media only screen and (max-width: $mobile) {
+                  font-weight: 800;
+                  margin-top: 20px;
+                  margin-bottom: 30px;
+
+                }
+
               }
+
+
 
 
             }
