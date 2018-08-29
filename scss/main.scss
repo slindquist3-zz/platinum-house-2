@@ -49,10 +49,24 @@
 
 
 body {
-  background-image: url(../assets/img/Background.png);
+  background-image: url(../assets/img/Background-desktop.png);
   background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+
+
+  @media only screen and (max-width: 1023px) {
+    background-image: url(../assets/img/Background-tablet.png);
+  }
+
+  @media only screen and (max-width: 599px) {
+    background-image: none;
+    background-color: white;
+
+  }
+
+
 
   font-family:"Brown","Helvetica","Arial",sans-serif;
   .header {
@@ -69,7 +83,6 @@ body {
       width: 30px;
     }
 
-
   }
 
   #amex-logo {
@@ -81,6 +94,9 @@ body {
       width: 130px;
     }
 
+    @media only screen and (max-width: 599px) {
+      display: none;
+    }
 
   }
 
@@ -116,18 +132,55 @@ body {
 
     }
 
+    @media only screen and (max-width: 599px) {
+      display: none;
+    }
+
   }
 
   .section-container {
     margin-top: 80px;
+
     #section-home {
 
-      #home-london-house-logo {
-        margin-top: 5%;
-        width: 35%;
-        float:right;
-        margin-right: 10%;
+      .home-container {
+
+        .home-mobile-image-container {
+
+          #home-mobile-image {
+            display: none;
+
+            @media only screen and (max-width: 600px) {
+
+              display: block;
+
+            }
+
+          }
+
+        }
+
+
+
+        #home-london-house-logo {
+          margin-top: 5%;
+          width: 35%;
+          float:right;
+          margin-right: 10%;
+
+          @media only screen and (max-width: 1023px) {
+
+            float: none;
+            width: 50%;
+            margin-left: 25%;
+
+          }
+
+
+        }
+
       }
+
 
     }
 
@@ -164,7 +217,6 @@ body {
 
           }
 
-
         }
 
         .classes-subcopy {
@@ -198,8 +250,6 @@ body {
             }
 
           }
-
-
 
           .location-copy {
             font-weight: 400;
@@ -261,7 +311,7 @@ body {
 
               padding-left: 20px;
               padding-right: 20px;
-              padding-bottom: 30px;
+              padding-bottom: 40px;
 
             }
 
@@ -303,14 +353,9 @@ body {
 
             }
 
-
           }
 
-
-
         }
-
-
 
       }
 
@@ -326,8 +371,6 @@ body {
         margin: auto;
         margin-top: -25px;
 
-
-
         @media only screen and (max-width: 1023px) {
           position: relative;
 
@@ -335,11 +378,10 @@ body {
           height: 35px;
           background-color: #383838;
           display: block;
-          margin-left: 20%;
-          margin-top: -50px;
+          margin-left: 90px;
+          margin-top: -60px;
 
         }
-
 
       }
 
