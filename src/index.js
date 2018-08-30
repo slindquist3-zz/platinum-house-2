@@ -1,5 +1,6 @@
 (function(){
 //always load home section first
+
   $(document).ready(function() {
 
     if ( $(window).width() > 600 ) {
@@ -30,7 +31,6 @@
         $('#section-classes').hide();
         $('#section-london-diaries').show();
         $('#amex-logo').show();
-
 
       });
 
@@ -79,10 +79,6 @@
     });
 
   });
-
-
-
-
 
   $('.nav-link').on('click', function() {
 

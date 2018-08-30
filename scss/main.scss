@@ -58,21 +58,18 @@ body {
   background-position: left;
   background-size: cover;
   background-attachment: fixed;
+  font-family:"Brown","Helvetica","Arial",sans-serif;
 
-
-  @media only screen and (max-width: $tablet) {
+  @media screen and (max-width: $tablet) {
     background-image: url(../assets/img/Background-tablet.png);
   }
 
-  @media only screen and (max-width: $mobile) {
+  @media screen and (max-width: $mobile) {
     background-image: none;
     background-color: white;
     margin: 0;
   }
 
-
-
-  font-family:"Brown","Helvetica","Arial",sans-serif;
   .header {
     width: 100%;
     top: 0;
@@ -83,11 +80,11 @@ body {
     left: 1%;
     top: 20px;
 
-    @media only screen and (max-width: $tablet) {
+    @media screen and (max-width: $tablet) {
       width: 30px;
     }
 
-    @media only screen and (max-width: $mobile) {
+    @media screen and (max-width: $mobile) {
       width: 30px;
       left: 3%;
     }
@@ -99,11 +96,11 @@ body {
     right: 2%;
     top: 20px;
 
-    @media only screen and (max-width: $tablet) {
+    @media screen and (max-width: $tablet) {
       width: 130px;
     }
 
-    @media only screen and (max-width: $mobile) {
+    @media screen and (max-width: $mobile) {
       display: none;
     }
 
@@ -141,7 +138,7 @@ body {
 
     }
 
-    @media only screen and (max-width: $mobile) {
+    @media screen and (max-width: $mobile) {
       display: none;
     }
 
@@ -160,7 +157,7 @@ body {
           #home-mobile-image {
             display: none;
 
-            @media only screen and (max-width: $mobile) {
+            @media screen and (max-width: $mobile) {
               max-width: 100%;
               flex-shrink: 1;
               height: auto;
@@ -178,7 +175,7 @@ body {
           float:right;
           margin-right: 10%;
 
-          @media only screen and (max-width: $tablet) {
+          @media screen and (max-width: $tablet) {
 
             float: none;
             width: 50%;
@@ -186,7 +183,7 @@ body {
 
           }
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
 
             display: none;
             position: absolute;
@@ -202,7 +199,7 @@ body {
 
           display: none;
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
             display: block;
             width: 70%;
             margin-left: 15%;
@@ -223,14 +220,14 @@ body {
       &.hide {
         display: none;
 
-        @media only screen and (max-width: $mobile) {
+        @media screen and (max-width: $mobile) {
 
           display: block;
 
         }
       }
 
-      @media only screen and (max-width: $mobile) {
+      @media screen and (max-width: $mobile) {
 
         display: block;
 
@@ -258,7 +255,7 @@ body {
           letter-spacing: 2px;
           font-weight: 400;
 
-          @media only screen and (max-width: $tablet) {
+          @media screen and (max-width: $tablet) {
 
             margin-right: 20%;
             margin-left: 20%;
@@ -267,7 +264,7 @@ body {
 
           }
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
 
             margin: auto;
             text-align: left;
@@ -286,13 +283,13 @@ body {
           font-weight: 300;
           margin-bottom: 40px;
 
-          @media only screen and (max-width: $tablet) {
+          @media screen and (max-width: $tablet) {
 
             margin-left: 5%;
             margin-right: 5%;
           }
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
 
             margin-top: 20px;
             margin-left: auto;
@@ -308,7 +305,7 @@ body {
           width: 80%;
           margin: auto;
 
-          @media only screen and (max-width: $tablet) {
+          @media screen and (max-width: $tablet) {
 
             text-align: left;
 
@@ -318,7 +315,7 @@ body {
 
           }
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
 
             padding-left: 10%;
             padding-right: 10%;
@@ -339,7 +336,7 @@ body {
             margin-bottom: 10px;
             text-transform: uppercase;
 
-            @media only screen and (max-width: $mobile) {
+            @media screen and (max-width: $mobile) {
               margin-bottom: 0;
               font-size: 18px;
             }
@@ -352,7 +349,7 @@ body {
             font-size: 22px;
 
 
-            @media only screen and (max-width: $tablet) {
+            @media screen and (max-width: $tablet) {
               font-size: 18px;
               margin-bottom: 40px;
 
@@ -366,7 +363,7 @@ body {
             padding-bottom: 20px;
             text-transform: uppercase;
 
-            @media only screen and (max-width: $tablet) {
+            @media screen and (max-width: $tablet) {
               width: 100%;
               display: block;
               margin-top: 10px;
@@ -374,7 +371,7 @@ body {
 
             }
 
-            @media only screen and (max-width: $mobile) {
+            @media screen and (max-width: $mobile) {
               font-size: 18px;
             }
 
@@ -388,7 +385,7 @@ body {
             padding-left: 100px;
             padding-right: 100px;
 
-            @media only screen and (max-width: 1500px) {
+            @media screen and (max-width: 1500px) {
               margin-top: 0;
 
               padding-left: 20px;
@@ -396,7 +393,7 @@ body {
 
             }
 
-            @media only screen and (max-width: $tablet) {
+            @media screen and (max-width: $tablet) {
               flex-wrap: wrap;
 
               padding-left: 20px;
@@ -405,7 +402,7 @@ body {
 
             }
 
-            @media only screen and (max-width: $mobile) {
+            @media screen and (max-width: $mobile) {
               flex-wrap: wrap;
 
               padding-left: 0;
@@ -424,14 +421,14 @@ body {
               padding-bottom: 90px;
               font-weight: 300;
 
-              @media only screen and (max-width: 1400px) {
+              @media screen and (max-width: 1400px) {
                 width: 100%;
                 display: block;
                 font-size: 16px;
 
               }
 
-              @media only screen and (max-width: $tablet) {
+              @media screen and (max-width: $tablet) {
                 width: 100%;
                 padding-bottom: 40px;
 
@@ -485,7 +482,7 @@ body {
 
 
 
-          @media only screen and (max-width: $tablet) {
+          @media screen and (max-width: $tablet) {
             position: relative;
             width: 180px;
             height: 35px;
@@ -496,7 +493,7 @@ body {
 
           }
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
 
             margin-top: -20px;
             margin-left: auto;
@@ -523,7 +520,7 @@ body {
         padding: 30px 30px 25px;
         margin-top: -20px;
 
-        @media only screen and (max-width: $tablet) {
+        @media screen and (max-width: $tablet) {
 
           width: 70%;
           float: none;
@@ -532,7 +529,7 @@ body {
 
         }
 
-        @media only screen and (max-width: $mobile) {
+        @media screen and (max-width: $mobile) {
 
           padding-left: 0;
           padding-right: 0;
@@ -557,7 +554,7 @@ body {
           font-weight: 300;
           margin-bottom: 10px;
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
             font-size: 18px;
             width: 100%;
           }
@@ -566,7 +563,7 @@ body {
 
         .london-diaries-thumbnails {
 
-          @media only screen and (max-width: $mobile) {
+          @media screen and (max-width: $mobile) {
             width: 100%;
           }
 
@@ -576,7 +573,7 @@ body {
             display: table;
             clear: both;
 
-            @media only screen and (max-width: $mobile) {
+            @media screen and (max-width: $mobile) {
               display: block;
               width: 100%;
             }
@@ -588,7 +585,7 @@ body {
               display: table-cell;
               vertical-align: top;
 
-              @media only screen and (max-width: $mobile) {
+              @media screen and (max-width: $mobile) {
                 display: block;
                 width: 100%;
                 height:auto;
@@ -597,7 +594,7 @@ body {
               img {
                 width: 270px;
 
-                @media only screen and (max-width: $mobile) {
+                @media screen and (max-width: $mobile) {
                   width: 100%;
                   height: auto;                }
               }
@@ -610,7 +607,7 @@ body {
               padding-left: 2%;
               position: relative;
 
-              @media only screen and (max-width: $mobile) {
+              @media screen and (max-width: $mobile) {
                 display: block;
                 width: 100%;
                 padding-left: 0;
@@ -629,7 +626,7 @@ body {
 
                 margin-top: 10%;
 
-                @media only screen and (max-width: $mobile) {
+                @media screen and (max-width: $mobile) {
                   font-weight: 800;
                   margin-top: 20px;
                   margin-bottom: 30px;

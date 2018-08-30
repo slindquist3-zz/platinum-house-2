@@ -1,63 +1,63 @@
 /* Brown font */
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-thin.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-thin.woff") format("woff");
   font-weight: 100;
   font-style: normal; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-thin-italic.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-thin-italic.woff") format("woff");
   font-weight: 100;
   font-style: italic; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-light.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-light.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-light-italic.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-light-italic.woff") format("woff");
   font-weight: 300;
   font-style: italic; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-regular.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-regular-italic.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-regular-italic.woff") format("woff");
   font-weight: normal;
   font-style: italic; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-bold.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-bold.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Brown';
-  src: url("../assets/fonts/lineto-brown-bold-italic.woff") format("woff");
+  src: url("https://furthermore-cdn.equinox.com/platinum-house/static/assets/lineto-brown-bold-italic.woff") format("woff");
   font-weight: bold;
   font-style: italic; }
 
 body {
-  background-image: url(../assets/img/Background-desktop.png);
+  background-image: url(https://furthermore-cdn.equinox.com/platinum-house/static/assets/img/Background-desktop.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
   background-attachment: fixed;
   font-family: "Brown","Helvetica","Arial",sans-serif; }
-  @media only screen and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     body {
-      background-image: url(../assets/img/Background-tablet.png); } }
-  @media only screen and (max-width: 600px) {
+      background-image: url(https://furthermore-cdn.equinox.com/platinum-house/static/assets/img/Background-tablet.png); } }
+  @media screen and (max-width: 600px) {
     body {
       background-image: none;
       background-color: white;
@@ -70,10 +70,10 @@ body {
     position: absolute;
     left: 1%;
     top: 20px; }
-    @media only screen and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       body #fm-logo {
         width: 30px; } }
-    @media only screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       body #fm-logo {
         width: 30px;
         left: 3%; } }
@@ -81,10 +81,10 @@ body {
     position: absolute;
     right: 2%;
     top: 20px; }
-    @media only screen and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       body #amex-logo {
         width: 130px; } }
-    @media only screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       body #amex-logo {
         display: none; } }
   body .nav {
@@ -104,7 +104,7 @@ body {
       body .nav .nav-link #home-button {
         width: 30px;
         margin-top: 30px; }
-    @media only screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       body .nav {
         display: none; } }
   body .section-container {
@@ -113,7 +113,7 @@ body {
       margin-top: -80px; }
       body .section-container #section-home .home-container .home-mobile-image-container #home-mobile-image {
         display: none; }
-        @media only screen and (max-width: 600px) {
+        @media screen and (max-width: 600px) {
           body .section-container #section-home .home-container .home-mobile-image-container #home-mobile-image {
             max-width: 100%;
             flex-shrink: 1;
@@ -124,19 +124,19 @@ body {
       width: 35%;
       float: right;
       margin-right: 10%; }
-      @media only screen and (max-width: 1024px) {
+      @media screen and (max-width: 1024px) {
         body .section-container #section-home .home-container #home-london-house-logo {
           float: none;
           width: 50%;
           margin-left: 25%; } }
-      @media only screen and (max-width: 600px) {
+      @media screen and (max-width: 600px) {
         body .section-container #section-home .home-container #home-london-house-logo {
           display: none;
           position: absolute;
           top: 10%; } }
     body .section-container #section-home .home-container #home-london-house-logo-mobile {
       display: none; }
-      @media only screen and (max-width: 600px) {
+      @media screen and (max-width: 600px) {
         body .section-container #section-home .home-container #home-london-house-logo-mobile {
           display: block;
           width: 70%;
@@ -146,10 +146,10 @@ body {
           top: 15%; } }
     body .section-container section.hide {
       display: none; }
-      @media only screen and (max-width: 600px) {
+      @media screen and (max-width: 600px) {
         body .section-container section.hide {
           display: block; } }
-    @media only screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
       body .section-container section {
         display: block; } }
     body .section-container #section-classes {
@@ -168,12 +168,12 @@ body {
           padding-top: 40px;
           letter-spacing: 2px;
           font-weight: 400; }
-          @media only screen and (max-width: 1024px) {
+          @media screen and (max-width: 1024px) {
             body .section-container #section-classes .classes-container .classes-header {
               margin-right: 20%;
               margin-left: 20%;
               text-align: center; } }
-          @media only screen and (max-width: 600px) {
+          @media screen and (max-width: 600px) {
             body .section-container #section-classes .classes-container .classes-header {
               margin: auto;
               text-align: left;
@@ -185,11 +185,11 @@ body {
           font-size: 18px;
           font-weight: 300;
           margin-bottom: 40px; }
-          @media only screen and (max-width: 1024px) {
+          @media screen and (max-width: 1024px) {
             body .section-container #section-classes .classes-container .classes-subcopy {
               margin-left: 5%;
               margin-right: 5%; } }
-          @media only screen and (max-width: 600px) {
+          @media screen and (max-width: 600px) {
             body .section-container #section-classes .classes-container .classes-subcopy {
               margin-top: 20px;
               margin-left: auto;
@@ -199,12 +199,12 @@ body {
           border: 2px solid black;
           width: 80%;
           margin: auto; }
-          @media only screen and (max-width: 1024px) {
+          @media screen and (max-width: 1024px) {
             body .section-container #section-classes .classes-container .classes-inner-contianer {
               text-align: left; }
               body .section-container #section-classes .classes-container .classes-inner-contianer .classes-upper-copy-container {
                 margin-left: 20px; } }
-          @media only screen and (max-width: 600px) {
+          @media screen and (max-width: 600px) {
             body .section-container #section-classes .classes-container .classes-inner-contianer {
               padding-left: 10%;
               padding-right: 10%;
@@ -219,14 +219,14 @@ body {
             font-size: 20px;
             margin-bottom: 10px;
             text-transform: uppercase; }
-            @media only screen and (max-width: 600px) {
+            @media screen and (max-width: 600px) {
               body .section-container #section-classes .classes-container .classes-inner-contianer .location-copy {
                 margin-bottom: 0;
                 font-size: 18px; } }
           body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
             font-weight: 300;
             font-size: 22px; }
-            @media only screen and (max-width: 1024px) {
+            @media screen and (max-width: 1024px) {
               body .section-container #section-classes .classes-container .classes-inner-contianer .location-name {
                 font-size: 18px;
                 margin-bottom: 40px; } }
@@ -236,13 +236,13 @@ body {
             font-size: 20px;
             padding-bottom: 20px;
             text-transform: uppercase; }
-            @media only screen and (max-width: 1024px) {
+            @media screen and (max-width: 1024px) {
               body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
                 width: 100%;
                 display: block;
                 margin-top: 10px;
                 padding-bottom: 10px; } }
-            @media only screen and (max-width: 600px) {
+            @media screen and (max-width: 600px) {
               body .section-container #section-classes .classes-container .classes-inner-contianer .schedule-copy {
                 font-size: 18px; } }
           body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
@@ -252,18 +252,18 @@ body {
             justify-content: space-between;
             padding-left: 100px;
             padding-right: 100px; }
-            @media only screen and (max-width: 1500px) {
+            @media screen and (max-width: 1500px) {
               body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
                 margin-top: 0;
                 padding-left: 20px;
                 padding-right: 20px; } }
-            @media only screen and (max-width: 1024px) {
+            @media screen and (max-width: 1024px) {
               body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
                 flex-wrap: wrap;
                 padding-left: 20px;
                 padding-right: 20px;
                 padding-bottom: 40px; } }
-            @media only screen and (max-width: 600px) {
+            @media screen and (max-width: 600px) {
               body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container {
                 flex-wrap: wrap;
                 padding-left: 0;
@@ -277,12 +277,12 @@ body {
               text-align: left;
               padding-bottom: 90px;
               font-weight: 300; }
-              @media only screen and (max-width: 1400px) {
+              @media screen and (max-width: 1400px) {
                 body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
                   width: 100%;
                   display: block;
                   font-size: 16px; } }
-              @media only screen and (max-width: 1024px) {
+              @media screen and (max-width: 1024px) {
                 body .section-container #section-classes .classes-container .classes-inner-contianer .classes-schedule-container .class-schedule-day-column {
                   width: 100%;
                   padding-bottom: 40px;
@@ -309,7 +309,7 @@ body {
           margin: auto;
           margin-top: -25px;
           text-decoration: none; }
-          @media only screen and (max-width: 1024px) {
+          @media screen and (max-width: 1024px) {
             body .section-container #section-classes .schedule-booknow-link #schedule-booknow-button {
               position: relative;
               width: 180px;
@@ -318,7 +318,7 @@ body {
               display: block;
               margin-left: 90px;
               margin-top: -60px; } }
-          @media only screen and (max-width: 600px) {
+          @media screen and (max-width: 600px) {
             body .section-container #section-classes .schedule-booknow-link #schedule-booknow-button {
               margin-top: -20px;
               margin-left: auto; } }
@@ -332,13 +332,13 @@ body {
         margin-bottom: 20px;
         padding: 30px 30px 25px;
         margin-top: -20px; }
-        @media only screen and (max-width: 1024px) {
+        @media screen and (max-width: 1024px) {
           body .section-container #section-london-diaries .london-diaries-container {
             width: 70%;
             float: none;
             margin-left: auto;
             margin-right: auto; } }
-        @media only screen and (max-width: 600px) {
+        @media screen and (max-width: 600px) {
           body .section-container #section-london-diaries .london-diaries-container {
             padding-left: 0;
             padding-right: 0;
@@ -353,11 +353,11 @@ body {
         body .section-container #section-london-diaries .london-diaries-container .london-diaries-subcopy {
           font-weight: 300;
           margin-bottom: 10px; }
-          @media only screen and (max-width: 600px) {
+          @media screen and (max-width: 600px) {
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-subcopy {
               font-size: 18px;
               width: 100%; } }
-        @media only screen and (max-width: 600px) {
+        @media screen and (max-width: 600px) {
           body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails {
             width: 100%; } }
         body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail {
@@ -365,7 +365,7 @@ body {
           width: 100%;
           display: table;
           clear: both; }
-          @media only screen and (max-width: 600px) {
+          @media screen and (max-width: 600px) {
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail {
               display: block;
               width: 100%; } }
@@ -374,14 +374,14 @@ body {
             height: 140px;
             display: table-cell;
             vertical-align: top; }
-            @media only screen and (max-width: 600px) {
+            @media screen and (max-width: 600px) {
               body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-image {
                 display: block;
                 width: 100%;
                 height: auto; } }
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-image img {
               width: 270px; }
-              @media only screen and (max-width: 600px) {
+              @media screen and (max-width: 600px) {
                 body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-image img {
                   width: 100%;
                   height: auto; } }
@@ -391,7 +391,7 @@ body {
             width: 67%;
             padding-left: 2%;
             position: relative; }
-            @media only screen and (max-width: 600px) {
+            @media screen and (max-width: 600px) {
               body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container {
                 display: block;
                 width: 100%;
@@ -400,7 +400,7 @@ body {
               font-weight: bold; }
             body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore {
               margin-top: 10%; }
-              @media only screen and (max-width: 600px) {
+              @media screen and (max-width: 600px) {
                 body .section-container #section-london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore {
                   font-weight: 800;
                   margin-top: 20px;
