@@ -20,7 +20,7 @@
       } else if (window.location.href.includes("#classes")) {
 
         $('#home-span').removeClass('link-active')
-        $('#clases-span').addClass('link-active')
+        $('#classes-span').addClass('link-active')
         $('#classes').show();
         $('#london-diaries').hide();
         $('#home').hide();
