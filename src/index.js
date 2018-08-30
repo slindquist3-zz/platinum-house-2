@@ -41,6 +41,26 @@
         $('#home').show();
         $('#classes').show();
         $('#london-diaries').show();
+      } else {
+
+        var links = $('.nav-link-text');
+
+        $.each(links, function(index, link) {
+
+          var id = $(link).attr('data-name');
+
+          if ($(link).hasClass('link-active')) {
+
+            $(id).show();
+
+          } else {
+
+            $(id).hide();
+
+          }
+
+        });
+
       }
 
     });
@@ -54,6 +74,5 @@
     $(this).find($('.nav-link-text')).addClass('link-active');
 
   });
-
 
 })();
