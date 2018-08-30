@@ -3,12 +3,38 @@
 
   $(document).ready(function() {
 
+
     if ( $(window).width() > 600 ) {
 
-      $('#classes').hide();
-      $('#london-diaries').hide();
-      $('#home').show();
-      $('#amex-logo').hide();
+      //if the url has a class name in the title, hide other sections and show that section, otherwise, just do regular
+
+      if (window.location.href.includes("#london-diaries")) {
+
+        $('#classes').hide();
+        $('#london-diaries').show();
+        $('#home-span').removeClass('link-active')
+        $('#london-diaries-span').addClass('link-active')
+        $('#home').hide();
+        $('#amex-logo').show();
+
+      } else if (window.location.href.includes("#classes")) {
+
+        $('#home-span').removeClass('link-active')
+        $('#clases-span').addClass('link-active')
+        $('#classes').show();
+        $('#london-diaries').hide();
+        $('#home').hide();
+        $('#amex-logo').show();
+
+      } else {
+
+        $('#classes').hide();
+        $('#london-diaries').hide();
+        $('#home').show();
+        $('#amex-logo').hide();
+
+      }
+
 
       // navigation logic
       $('#nav-link-home').on('click', function() {
