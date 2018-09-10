@@ -401,6 +401,11 @@ body {
               font-weight: bold; }
             body .section-container #london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore {
               margin-top: 10%; }
+              body .section-container #london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore .link-learnmore {
+                color: black;
+                text-decoration: none; }
+              body .section-container #london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore .link-learnmore:hover {
+                text-decoration: underline; }
               @media screen and (max-width: 600px) {
                 body .section-container #london-diaries .london-diaries-container .london-diaries-thumbnails .thumbnail .thumbnail-copy-container .thumbnail-copy-learnmore {
                   font-weight: 800;
